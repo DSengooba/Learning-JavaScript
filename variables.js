@@ -23,3 +23,5 @@ const mymother="Joyce is my mother"
 console.log(mymother)
 const christmasday="December 25"
 console.log(christmasday)
+firstnumber=1910
+console.log(firstnumber)
