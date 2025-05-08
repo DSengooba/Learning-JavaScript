@@ -29,7 +29,7 @@ if (v === undefined) {
   text = "v is defined";
 }
 
-// type of 
+// typeof 
 let b;
 if (typeof b === "undefined") {
   text = "b is undefined";

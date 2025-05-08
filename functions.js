@@ -179,3 +179,5 @@ return area
 }
 calculateCircleArea2()
 console.log(calculateCircleArea2(20))
+
+// calculate diamter where radius is given in 

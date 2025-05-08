@@ -172,17 +172,29 @@ console.log(findPrimesUpTo(30)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 // Capitalize Each Word in a Sentence
 // Write a function capitalizeWords that takes a sentence and returns the same sentence with each word 
 // capitalized.
-function capitalizeWords(sentence) {
-    const words = sentence.split(" ");
-    const capitalizedWords = words.map(word => {
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    });
-    return capitalizedWords.join(" ");
-  }
-  capitalizedWords()
-  console.log(capitalizeWords("hello world")); // "Hello World"
-  console.log(capitalizeWords("this is a test")); // "This Is A Test
+// function capitalizeWords(sentence) {
+    // const words = sentence.split(" ");
+    // const capitalizedWords = words.map(word => {
+    //   return word.charAt(0).toUpperCase() + word.slice(1);
+    // });
+    // return capitalizedWords.join(" ");
+//   }
+//   capitalizedWords()
+//   console.log(capitalizeWords("hello world")); // "Hello World"
+//   console.log(capitalizeWords("this is a test")); // "This Is A Test
 
 // This function first splits the sentence into an array of words. 
 // Then, it uses the map method to iterate over each word and capitalize the first letter. 
 // Finally, it joins the capitalized words back into a sentence and returns the result. 
+
+function reversedString(str){
+    let string= ""
+    for (let m= str.length -1; m >= 0; m--){
+        string+= str(m)
+        // means that the string will add value str at index m
+    }
+        return reversedString
+}
+reversedString()
+console.log(reversedString("daniel"))
+
