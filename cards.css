@@ -1,0 +1,19 @@
+.pin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+  .card {
+    background-color: red;
+    height: 180px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .score{
+    margin: auto;
+  }
+  
